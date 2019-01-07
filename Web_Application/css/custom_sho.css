@@ -1,0 +1,161 @@
+/* 
+    Created on : Nov 10, 2015, 12:30:05 PM
+    Author     : arsho
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body{
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+.right_col, .login_body{
+    background: url(bg/white_pattern.jpg) repeat !important;
+}
+#login, #register{
+    background: #F7F7F7!important;
+    padding: 20px !important;
+}
+.compilation_error_header, .wrong_answer_header, .accepted_header{
+    margin: 0px !important;
+    font-weight: bold !important;
+}
+.x_panel,.x_content{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 120% !important;
+    font-weight: 500 !important;
+}
+pre{
+    padding: 0px !important;
+    margin: 0px !important;  
+    margin-bottom: 5px !important;    
+}
+code{
+    padding-top: 0px !important;
+    margin-top: 0px !important;  
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;  
+    font-family: monospace, sans-serif !important;
+    font-size: 120% !important;
+}
+.label-tags{
+    color: white !important;
+    line-height: 25px !important;
+}
+.breadcrumb{
+    margin-bottom: 0px !important; 
+    font-weight: bold;
+    background: gainsboro !important;
+}
+.breadcrumb>li+li:before { 
+    padding: 0 5px;     
+    color: #5A738E; 
+    content: ">"; 
+}
+.page-title{
+    padding-top: 5px !important;
+    padding-bottom: 0px !important;
+    height: auto !important;
+}
+
+.tabs-left-sho>li>a{
+    padding: 2px !important;
+    font-size: 80% !important;
+}
+.tabs-left-sho>li.active>a{
+    color: white !important;
+    background: #2A3F54 !important;
+    font-weight: bold !important;
+}
+.tab-content-sho{
+    background: #EDEDED !important;
+    padding: 10px !important;
+}
+
+.chat_sho li{
+    border-bottom: 1px dotted #e6e6e6 !important;
+    padding: 8px 0 !important;
+}
+.chat_sho img{
+    width: 70px !important;
+    height: 70px!important;
+    margin-top: 5px !important;
+}
+.chat_sho .media-body{
+    text-align: justify !important;
+}
+
+
+.chat_sho .panel-body
+{
+    overflow-y: scroll;
+    height: 450px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.sho-alert-small{
+    padding: 5px 0px !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+}
+table tr td select{
+    color: black !important;
+}
+.user_data li{
+    font-size: 100% !important;
+}
+.avatar-view {
+    height: auto !important;
+}
+a.no_text_decoration:hover{
+    background: red !important;
+    text-decoration: none !important;
+}
+.center_text{
+    text-align: center;
+}
+.table_profile_img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 40px !important;
+    height: 40px !important;    
+    background: #fff;
+    z-index: 1000;
+    position: inherit;
+    margin: 0px !important;
+    border: 1px solid rgba(52, 73, 94, 0.44);
+    padding: 2px;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    vertical-align: middle !important;    
+}
+.label-dark {
+    color: #E9EDEF;
+    background-color: rgba(52, 73, 94, 0.88);
+    border-color: rgba(52, 73, 94, 0.88);
+}
+
+.label-dark:hover {
+    color: #F7F7F7;
+}
+body.nav-sm .container.body .left_col {    
+    position: absolute !important;
+}

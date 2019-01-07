@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Easy C</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Server Settings</string>
+    <string name="action_home">Home</string>
+    <string name="title_activity_set_ip">SetIp</string>
+    <string name="title_activity_server_setting">Easy C Server Setting</string>
+</resources>

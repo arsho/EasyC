@@ -1,0 +1,6 @@
+/var/www/html/lnc/user_code_dir/sand/EasySandBox.so 
+
+
+LD_PRELOAD=/path/to/EasySandbox.so ./untrustedExe
+
+timeout 1.0s "LD_PRELOAD=/path/to/EasySandbox.so ./untrustedExe"

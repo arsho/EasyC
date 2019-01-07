@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ws.datamate.arsho.lnc.ServerSettingActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Server Address"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#34495e"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/serverAddressEt"
+        android:hint="http://192.168.1.25/lnc"
+        android:textColor="#34495e"
+        android:text="http://192.168.1.25/lnc"
+        />
+
+    <Button
+        android:id="@+id/serverAddressBtn"
+        android:text="Set server Address"
+        android:textStyle="bold"
+        android:textColor="#34495e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="serverAddressBtnClickListener"
+        />
+
+
+
+
+</LinearLayout>
